@@ -1770,6 +1770,9 @@ CONFIG_BLK_DEV_IO_TRACE=y
 #CONFIG_KVM=y
 CONFIG_KVM_ARM_HOST=y             # KVM ARM 主机支持，必须
 CONFIG_KVM_ARM_NESTED_HYP=y       # 嵌套虚拟化支持
+CONFIG_KVM_ARM_VHE=y
+CONFIG_KVM_ARM_HOST_NESTED=y
+
 CONFIG_KVM_ARM_PMU=y              # 性能监控单元支持
 CONFIG_ARM_VIRT_EXT=y             # ARM 虚拟化扩展支持
 CONFIG_KVM_MMIO=y                 # MMIO 虚拟化支持
